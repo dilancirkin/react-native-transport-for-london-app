@@ -15,7 +15,6 @@ const Timeline = () => {
 
   useEffect(() => {
     if(data!==null){
-setTimeline(data)
     }
   }, [data]);
  
@@ -33,7 +32,7 @@ setTimeline(data)
          
       <View style={styles.qr_container}>
         <QRCode
-          value={''}
+          value={'https://www.youtube.com'}
           size={150} 
           color={'black'}
           enableGradient={true} 
